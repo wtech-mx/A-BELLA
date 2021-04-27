@@ -1,5 +1,11 @@
+
 .tittle-general{
     color: #e198ad;
     font-weight: bold;
     font-size: 55px;
+}
+
+.carousel-indicators li{
+    width: 20px!important;
+    height: 20px!important;
 }
