@@ -1,0 +1,47 @@
+.sucursales {
+    background-image: url('../img/elements/content-img-start.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.sucursales-mazatlan{
+    background-image: url('../img/elements/content-img-sucursalt.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.tittle-sucursal{
+    color: #44294f;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 0px 0px 1px #000000;
+}
+
+.tittle2-sucursal{
+    color: #44294f;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 0px 0px 1px #000000;
+}
+
+.text-sucursal{
+    font-size:20px;
+    color: #000000;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+.content-sucursal{
+    position: relative;
+}
+
+.img-sucursal{
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    width: 33%;
+}
+

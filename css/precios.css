@@ -1,0 +1,7 @@
+.precios{
+    background-image: url('../img/elements/pricing-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}

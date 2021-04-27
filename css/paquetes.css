@@ -1,0 +1,52 @@
+.paquetes{
+    background-image: url('../img/elements/precios-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.card-paquete{
+    background: transparent;
+    border: 1px  transparent;
+}
+
+.tittle-paquetes{
+    font-size: 30px;
+    color: #462435;
+
+}
+
+.bg-paquetes-li{
+    background-image: url('../img/elements/pricing-img.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100px;
+    position: relative;
+}
+
+.bg-paquetes-li-2{
+    background-image: url('../img/elements/pricing-img-2.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100px;
+    position: relative;
+}
+
+.bg-paquetes-li-3{
+    background-image: url('../img/elements/pricing-img-3.png');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 140px!important;
+    position: relative;
+}
+
+.contendor-p{
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: -15px;
+    font-size: 22px;
+    color: #462435;
+    width: 280px;
+}
