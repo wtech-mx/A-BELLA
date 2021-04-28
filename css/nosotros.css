@@ -3,3 +3,56 @@
     font-weight: bold;
     font-size: 40px;
 }
+
+.text-nosotros{
+    font-size: 20px;
+}
+
+.img-nosotros{
+    width: 90%;
+}
+
+.row-about{
+    padding: 3rem!important;
+}
+
+
+/*display md:*/
+@media only screen and (max-width: 768px) {
+
+    .tittle-nosotros {
+        font-size: 25px;
+        text-align: left!important;
+    }
+
+    .text-nosotros{
+        font-size: 15px;
+        text-align: left!important;
+    }
+
+    .img-nosotros{
+        width: 100%;
+    }
+
+    .row-about{
+        padding: 0rem!important;
+        margin-top: 3rem!important;
+    }
+}
+
+/*display sm*/
+@media only screen and (max-width: 576px) {
+    .img-nosotros{
+        width: 50%;
+        position: relative;
+        right: 25%;
+    }
+    .tittle-nosotros {
+      text-align: center!important;
+    }
+
+    .text-nosotros{
+         text-align: center!important;
+    }
+}
+

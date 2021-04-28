@@ -1,10 +1,4 @@
-.contacto{
-    height: 300px!important;
-}
 
-.col-contact{
-    text-align: left!important;
-}
 
 /*display xl*/
 @media only screen and (max-width: 1200px) {
@@ -24,9 +18,7 @@
 
 /*display sm*/
 @media only screen and (max-width: 576px) {
-    .col-contact{
-        text-align: center!important;
-    }
+
 }
 
 /*display xs*/

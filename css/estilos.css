@@ -5,7 +5,61 @@
     font-size: 55px;
 }
 
+.carousel-caption{
+    top: 50%!important;
+}
+
 .carousel-indicators li{
     width: 20px!important;
     height: 20px!important;
+    border-radius: 50%;
+    background-color: #505050;
+}
+
+.carousel-indicators .active {
+    background-color: #e198ad;
+}
+
+.tittle-slide{
+    color: #000000;
+    font-size:30px;
+    font-weight: lighter;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+.text-slide{
+    color: #000000;
+}
+
+
+/*display xl*/
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*display lg*/
+@media only screen and (max-width: 992px) {
+
+}
+
+/*display md:*/
+@media only screen and (max-width: 768px) {
+    .tittle-general {
+        font-size: 40px;
+    }
+}
+
+/*display sm*/
+@media only screen and (max-width: 576px) {
+    .tittle-general {
+        font-size: 35px;
+    }
+
+}
+
+/*display xs*/
+@media only screen and (max-width: 400px) {
+    .tittle-general {
+        font-size: 30px;
+    }
 }

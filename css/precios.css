@@ -5,3 +5,55 @@
     height: auto;
     background-size: 100% 100%;
 }
+
+.nosotros-col{
+    padding-right: 0px;
+}
+
+.ul-precios{
+    list-style:none;
+}
+
+.ul-precios-l{
+    list-style:none;
+    left: -40px
+}
+
+.contetn-vertical {
+    width: 10px;
+    height: 100%!important;
+    background-color: #e198ad;
+}
+
+.contetn-vertical-verde{
+    width: 10px;
+    height: 100%!important;
+    background-color: #678174
+}
+
+
+/*display xl*/
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*display lg*/
+@media only screen and (max-width: 992px) {
+
+}
+
+/*display md:*/
+@media only screen and (max-width: 768px) {
+
+
+}
+
+/*display sm*/
+@media only screen and (max-width: 576px) {
+
+}
+
+/*display xs*/
+@media only screen and (max-width: 576px) {
+
+}

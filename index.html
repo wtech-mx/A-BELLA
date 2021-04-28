@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./css/contacto.css">
     <link rel="stylesheet" href="./css/nosotros.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
 
     <title>La Bella</title>
 
@@ -131,22 +132,22 @@
             <div class="carousel-item active">
               <img src="./img/slide/1.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5 class="tittle-slide">First slide label</h5>
+                <p class="text-slide"></p>
               </div>
-            </div>
+            </div>-
             <div class="carousel-item">
               <img src="./img/slide/2.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h5 class="tittle-slide">Second slide label</h5>
+                <p class="text-slide"></p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="./img/slide/3.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h5 class="tittle-slide">Third slide label</h5>
+                <p class="text-slide"></p>
               </div>
             </div>
           </div>
@@ -169,15 +170,15 @@
         <!-- About -->
         <section class="about">
           <div class="container">
-		    <div class="row p-5">
+		    <div class="row row-about">
 
-              <div class="col-4 text-right">
-                 <img src="./img/elements/About.png" class="rounded-circle mt-3" width="90%" />
+              <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-right">
+                 <img src="./img/elements/About.png" class="rounded-circle img-nosotros mt-3"/>
               </div>
 
-              <div class="col-8">
-                  <h2 class="text-left tittle-nosotros">Acerca de Nosotros</h2>
-                  <p class="text-left">
+              <div class="col-12 col-sm-6 col-md-8 col-lg-8">
+                  <h2 class="tittle-nosotros">Acerca de Nosotros</h2>
+                  <p class="text-nosotros">
                   Somos una empresa especialista en <br>
                   depilación 100% natural, utilizamos un método <br>
                   innovador, brindamos un servicio de calidad y <br>
@@ -204,14 +205,14 @@
 
                <div class="row p-5">
 
-                 <div class="col-6">
+                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <h3 class="text-center mb-5">DAMA</h3>
                     <div class="row">
 
                       <div class="col-6">
                         <div class="row">
-                          <div class="col-5" style="padding-right: 0px;">
-                            <ul class="text-right " style="list-style:none;">
+                          <div class="col-5 nosotros-col" >
+                            <ul class="text-right ul-precios" >
                               <li>$60</li>
                               <li>$100</li>
                               <li>$100</li>
@@ -229,11 +230,11 @@
                           </div>
 
                           <div class="col-2 d-inline">
-                            <div class="contetn-vertical " style="width: 10px;height: 100%!important;background-color: #e198ad"></div>
+                            <div class="contetn-vertical " ></div>
                           </div>
 
-                          <div class="col-5 position-relative" style="padding-left: 0px;">
-                            <ul class="text-left position-absolute" style="list-style:none;left: -40px">
+                          <div class="col-5 position-relative " >
+                            <ul class="text-left position-absolute ul-precios-l">
                               <li>Bigote</li>
                               <li>Ceja</li>
                               <li>Nuca</li>
@@ -254,8 +255,8 @@
 
                       <div class="col-6">
                         <div class="row">
-                          <div class="col-5" style="padding-right: 0px;">
-                            <ul class="text-right " style="list-style:none;">
+                          <div class="col-5" >
+                            <ul class="text-right ul-precios" >
                               <li>$90</li>
                               <li>$170</li>
                               <li>$100</li>
@@ -272,11 +273,11 @@
                           </div>
 
                           <div class="col-2 d-inline">
-                            <div class="contetn-vertical " style="width: 10px;height: 100%!important;background-color: #e198ad"></div>
+                            <div class="contetn-vertical "></div>
                           </div>
 
-                          <div class="col-5 position-relative" style="padding-left: 0px;">
-                            <ul class="text-left position-absolute" style="list-style:none;left: -40px">
+                          <div class="col-5 position-relative" >
+                            <ul class="text-left position-absolute ul-precios-l">
                               <li>Axilas</li>
                               <li>Abdomen</li>
                               <li>Pecho</li>
@@ -297,11 +298,11 @@
                     </div>
                  </div>
 
-                 <div class="col-6">
+                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <h3 class="text-center mb-5">CABALLERO</h3>
                     <div class="row">
-                      <div class="col-5" style="padding-right: 0px;">
-                        <ul class="text-right " style="list-style:none;">
+                      <div class="col-5" >
+                        <ul class="text-right ul-precios" >
                           <li>$120</li>
                           <li>$400</li>
                           <li>$400</li>
@@ -321,11 +322,11 @@
                       </div>
 
                       <div class="col-2 d-inline">
-                        <div class="contetn-vertical " style="width: 10px;height: 100%!important;background-color: #678174"></div>
+                        <div class="contetn-vertical-verde "></div>
                       </div>
 
-                      <div class="col-5 position-relative" style="padding-left: 0px;">
-                        <ul class="text-left position-absolute" style="list-style:none;left: -80px">
+                      <div class="col-5 position-relative" >
+                        <ul class="text-left position-absolute ul-precios">
                           <li>Axila</li>
                           <li>Pecho y Abdomen</li>
                           <li>Espalda Completa</li>
@@ -363,8 +364,10 @@
                 </div>
 
                 <div class="card-deck p-5 text-center">
+                    <div class="row">
 
-                  <div class="card mb-4 card-paquete">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-4 card-paquete">
                     <div class="card-body">
                       <ul class="list-unstyled mt-3 mb-4">
                         <li>
@@ -398,8 +401,10 @@
                       </ul>
                     </div>
                   </div>
+                    </div>
 
-                  <div class="card mb-4 card-paquete">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="card mb-4 card-paquete">
                     <div class="card-body">
                       <ul class="list-unstyled mt-3 mb-4">
                         <li>
@@ -433,8 +438,10 @@
                       </ul>
                     </div>
                   </div>
+                    </div>
 
-                  <div class="card mb-4 mt-5 card-paquete">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="card mb-4 mt-5 card-paquete">
                     <div class="card-body">
                       <ul class="list-unstyled mt-3 mb-4">
                         <li>
@@ -461,8 +468,11 @@
                       </ul>
                     </div>
                   </div>
+                    </div>
 
+                    </div>
                 </div>
+
             </div>
           </section>
         <!-- Paquetes -->
@@ -479,7 +489,7 @@
 
               <div class="row">
 
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2 text-center">
                     <img class="text-center" src="./img/elements/paleta.png" width="60%">
                     <h3 class="tittle-promo">LUNES</h3>
                      <p class="text-promo">
@@ -488,7 +498,7 @@
                      </p>
                 </div>
 
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2 text-center">
                      <img class="text-center" src="./img/elements/paleta.png" width="60%">
                     <h3 class="tittle-promo">MARTES</h3>
                      <p class="text-promo">
@@ -497,7 +507,7 @@
                      </p>
                 </div>
 
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2 text-center">
                      <img class="text-center" src="./img/elements/paleta.png" width="60%">
                     <h3 class="tittle-promo">MIÉRCOLES</h3>
                      <p class="text-promo">
@@ -506,7 +516,7 @@
                      </p>
                 </div>
 
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2 text-center">
                      <img class="text-center" src="./img/elements/paleta.png" width="60%">
                     <h3 class="tittle-promo">JUEVES</h3>
                      <p class="text-promo">
@@ -515,7 +525,7 @@
                      </p>
                 </div>
 
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2 text-center">
                      <img class="text-center" src="./img/elements/paleta.png" width="60%">
                     <h3 class="tittle-promo">VIERNES</h3>
                      <p class="text-promo">
@@ -524,7 +534,7 @@
                      </p>
                 </div>
 
-                <div class="col-2 text-center">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2 text-center">
                      <img class="text-center" src="./img/elements/paleta.png" width="60%">
                     <h3 class="tittle-promo">SÁBADO</h3>
                      <p class="text-promo">
@@ -545,14 +555,14 @@
             <div class="container">
 
               <div class="row">
-                <div class="col-12 mb-5">
+                <div class="col-12 mt-5 mb-5">
                  <h2 class="text-center tittle-general"> Sucursales Culiacán</h2>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-3 text-center">
-                   <img src="./img/sucursales/1.png" alt="" class="text-center rounded-circle" width="80%">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center">
+                   <img src="./img/sucursales/1.png" alt="" class="text-center rounded-circle img-round-sucursal">
                     <div class="content-sucursal ">
                        <h3 class="tittle-sucursal">CHAPULTEPEC</h3>
                         <img class="img-sucursal" src="./img/elements/gps.png" alt="">
@@ -566,8 +576,8 @@
 
                 </div>
 
-                <div class="col-3 text-center">
-                   <img src="./img/sucursales/2.png" alt="" class="text-center rounded-circle" width="80%">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center">
+                   <img src="./img/sucursales/2.png" alt="" class="text-center rounded-circle img-round-sucursal">
                     <div class="content-sucursal ">
                        <h3 class="tittle-sucursal">Villas DEL RÍO</h3>
                         <img class="img-sucursal" src="./img/elements/gps.png" alt="">
@@ -580,13 +590,13 @@
                     <h3 class="tittle2-sucursal">TEL.667-754-44-67</h3>
                 </div>
 
-                <div class="col-3 text-center">
-                   <img src="./img/sucursales/3.png" alt="" class="text-center rounded-circle" width="80%">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center">
+                   <img src="./img/sucursales/3.png" alt="" class="text-center rounded-circle img-round-sucursal">
                     <div class="content-sucursal ">
                        <h3 class="tittle-sucursal">GUADALUPE</h3>
                         <img class="img-sucursal" src="./img/elements/gps.png" alt="">
                         <p class="text-sucursal">
-                          AVv.Álvaro Obregón <br>
+                          Av.Álvaro Obregón <br>
                           #1220 local 6 <br>
                             Plaza Obregon
                         </p>
@@ -594,8 +604,8 @@
                     <h3 class="tittle2-sucursal">TEL.667-455-44-67</h3>
                 </div>
 
-                <div class="col-3 text-center">
-                   <img src="./img/sucursales/4.png" alt="" class="text-center rounded-circle" width="80%">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center">
+                   <img src="./img/sucursales/4.png" alt="" class="text-center rounded-circle img-round-sucursal">
                     <div class="content-sucursal ">
                        <h3 class="tittle-sucursal">CAMPIÑA</h3>
                         <img class="img-sucursal" src="./img/elements/gps.png" alt="">
@@ -624,13 +634,12 @@
               </div>
 
               <div class="row">
-                <div class="col-3 text-center"></div>
 
-                <div class="col-3 text-center">
-                   <img src="./img/sucursales/5.png" alt="" class="text-center rounded-circle" width="80%">
+                <div class="col-6 text-center">
+                   <img src="./img/sucursales/5.png" alt="" class="text-center rounded-circle img-round-sucursal2" width="40%">
                     <div class="content-sucursal ">
                        <h3 class="tittle-sucursal ml-1">PALOS PRIETOS</h3>
-                        <img class="img-sucursal" src="./img/elements/gps.png" alt="">
+                        <img class="img-sucursal2" src="./img/elements/gps.png" alt="">
                         <p class="text-sucursal">
                           Rio Baluarte <br>
                           #8120 Local D2
@@ -639,11 +648,11 @@
                     <h3 class="tittle2-sucursal">TEL.667-455-44-67</h3>
                 </div>
 
-                <div class="col-3 text-center">
-                   <img src="./img/sucursales/6.png" alt="" class="text-center rounded-circle" width="80%">
+                <div class="col-6 text-center">
+                   <img src="./img/sucursales/6.png" alt="" class="text-center rounded-circle img-round-sucursal2" width="40%">
                     <div class="content-sucursal ">
-                       <h3 class="tittle-sucursal ml-3">REAL DEL VALLE</h3>
-                        <img class="img-sucursal" src="./img/elements/gps.png" alt="">
+                       <h3 class="tittle-sucursal real ml-3">REAL DEL VALLE</h3>
+                        <img class="img-sucursal2" src="./img/elements/gps.png" alt="">
                         <p class="text-sucursal">
                           Av-Libramiento 2 <br>
                           #8112 Local 17
@@ -652,7 +661,6 @@
                     <h3 class="tittle2-sucursal">(Próximamente)</h3>
                 </div>
 
-                <div class="col-3 text-center"></div>
               </div>
 
             </div>
@@ -670,137 +678,120 @@
 
                 <div class="row text-center">
 
-                    <div class="col-4 p-5 ">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products ">
                        <img src="./img/products/product11.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                               Derme Clear <br>
                               Jabón aclarador <br>
                               facial y corporal
                             </p>
-                        <h3 class="tittle2-sucursal">$80</h3>
+                        <h3 class="tittle2-products">$80</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product12.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                               Derma Clear <br>
                               Crema <br>
                               desmanchadora
                             </p>
-                        <h3 class="tittle2-sucursal">$600</h3>
+                        <h3 class="tittle2-products">$600</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product13.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                                Derma Clear <br>
                                Crema aclaradora<br>
                                 con FPS 30
                             </p>
-                        <h3 class="tittle2-sucursal">$350</h3>
+                        <h3 class="tittle2-products">$350</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product1.png" alt="" class="text-center" width="70%">
-                                <p class="text-sucursal">Desodorante Cristal </p>
+                         <p class="text-products">Desodorante Cristal </p>
 
-                               <ul class="text-sucursal ul-product">
-                                <li>
-                                    <p class="texto-li-product">Chica
-                                        <strong class="tittle2-sucursal ml-5">$60</strong>
-                                    </p>
-                                </li>
-
-                                <li>
-                                    <p class="texto-li-product">Mediana
-                                        <strong class="tittle2-sucursal ml-5">$90</strong>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="texto-li-product">Grande
-                                        <strong class="tittle2-sucursal ml-5">$120</strong>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p class="texto-li-product">Extra Grande
-                                        <strong class="tittle2-sucursal ml-5">$150</strong>
-                                    </p>
-                                </li>
-                               </ul>
+                         <p class="text-products">
+                             Chica   <strong class="tittle2-products ml-5">$60</strong> <br>
+                             Mediana <strong class="tittle2-products ml-5">$90</strong> <br>
+                             Grande <strong class="tittle2-products ml-5">$120</strong> <br>
+                             Extra Grande <strong class="tittle2-products ml-5">$150</strong> <br>
+                         </p>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product2.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                               Desodorante Sanax <br>
                             </p>
-                        <h3 class="tittle2-sucursal">$130</h3>
+                        <h3 class="tittle2-products">$130</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product3.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                                Agua de Hamamelis <br>
                             </p>
-                        <h3 class="tittle2-sucursal">$90</h3>
+                        <h3 class="tittle2-products">$90</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product4.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                               Aceite Inhibidor <br>
                             </p>
-                        <h3 class="tittle2-sucursal">$80</h3>
+                        <h3 class="tittle2-products">$80</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product5.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                               Aceite de Argón <br>
                             </p>
-                        <h3 class="tittle2-sucursal">$350</h3>
+                        <h3 class="tittle2-products">$350</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product6.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                                Aceite de Coco <br>
                             </p>
-                        <h3 class="tittle2-sucursal">$100</h3>
+                        <h3 class="tittle2-products">$100</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product7.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                               Aguea de Rosas <br>
                             </p>
-                        <h3 class="tittle2-sucursal">$95</h3>
+                        <h3 class="tittle2-products">$95</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product8.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                               Fibra exfoliante <br>
                                 corporal
                             </p>
-                        <h3 class="tittle2-sucursal">$40</h3>
+                        <h3 class="tittle2-products">$40</h3>
                     </div>
 
-                    <div class="col-4 p-5">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4 col-products">
                        <img src="./img/products/product9.png" alt="" class="text-center" width="70%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                                Dabalash <br>
                             </p>
-                        <h3 class="tittle2-sucursal">$1,850</h3>
+                        <h3 class="tittle2-products">$1,850</h3>
                     </div>
 
                     <div class="col-12">
                        <img src="./img/products/product10.png" alt="" class="text-center" width="15%">
-                            <p class="text-sucursal">
+                            <p class="text-products">
                                Tequila Skin <br>
                                 Regenerador de piel
                             </p>
-                        <h3 class="tittle2-sucursal">$295</h3>
+                        <h3 class="tittle2-products">$295</h3>
                     </div>
 
                 </div>
@@ -809,22 +800,28 @@
         <!-- Productos -->
 
        <!-- Contacto -->
-            <section class="contacto">
+         <section class="contacto">
                 <div class="container">
                     <div class="row mt-5 mb-5">
-                        <div class="col-7 mt-5">
+
+                        <div class="col-12 col-sm-5 col-md-6 col-lg-7 mt-5">
                             <h2 class="text-center tittle-general">Contacto</h2>
                         </div>
-                        <div class="col-2 d-inline">
-                          <div class="contetn-vertical " style="width: 2px;height: 250px!important;background-color: #000000"></div>
+
+                        <div class="d-none d-sm-none d-md-block">
+                            <div class="col-2 d-inline">
+                                 <div class="contetn-vertical " style="width: 2px;height: 250px!important;background-color: #000000"></div>
+                            </div>
                         </div>
-                        <div class="col-3 mt-3 text-left">
+
+                        <div class="col-12 col-sm-5 col-md-4 col-lg-3 mt-3 col-contact">
                             <h3 class="">Email</h3>
                             <p>arabegarcia@gmail.com</p>
 
                             <h3 class="">Teléfono</h3>
                             <p>6671028921</p>
                         </div>
+
                     </div>
                 </div>
             </section>

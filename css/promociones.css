@@ -25,3 +25,35 @@
     color: #000000;
     text-shadow: 0px 0px 2px #000000;
 }
+
+/*display xl*/
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*display lg*/
+@media only screen and (max-width: 992px) {
+    .promo{
+        height:auto!important;
+    }
+}
+
+/*display md:*/
+@media only screen and (max-width: 768px) {
+
+
+}
+
+/*display sm*/
+@media only screen and (max-width: 576px) {
+    .tittle-promo {
+        font-size: 25px;
+    }
+}
+
+/*display xs*/
+@media only screen and (max-width: 400px) {
+    .tittle-promo {
+        font-size: 20px;
+    }
+}

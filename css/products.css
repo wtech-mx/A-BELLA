@@ -5,5 +5,73 @@
 .texto-li-product{
     margin-bottom: 0rem;
     text-align: center;
+}
+
+.tittle2-products{
+    color: #44294f;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 0px 0px 1px #000000;
+}
+
+.text-products{
+    font-size:20px;
+    color: #000000;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+.col-products{
+    padding: 3rem!important;
+}
+
+/*display xl*/
+@media only screen and (max-width: 1200px) {
+    .col-products{
+        padding: 2rem!important;
+    }
+}
+
+/*display lg*/
+@media only screen and (max-width: 992px) {
+
+    .col-products{
+        padding: 1.5rem!important;
+    }
+
+    .tittle2-products{
+        font-size: 22px;
+    }
+
+    .text-products{
+        font-size:17px;
+    }
+
+}
+
+/*display md:*/
+@media only screen and (max-width: 768px) {
+
+    .col-products{
+        padding: 0rem!important;
+        margin-bottom: 3rem!important;
+    }
+
+    .tittle2-products{
+        font-size: 19px;
+    }
+
+    .text-products{
+        font-size:16px;
+    }
+
+}
+
+/*display sm*/
+@media only screen and (max-width: 576px) {
+
+}
+
+/*display xs*/
+@media only screen and (max-width: 576px) {
 
 }
