@@ -14,6 +14,10 @@
     list-style:none;
 }
 
+.ul-precios-v{
+    list-style:none;
+}
+
 .ul-precios-l{
     list-style:none;
     left: -40px
@@ -44,16 +48,37 @@
 
 /*display md:*/
 @media only screen and (max-width: 768px) {
+    .ul-precios-l{
+        left: -45px;
+    }
+    .contetn-vertical {
+        width: 6px;
+        height: 100%!important;
+    }
 
+    .contetn-vertical-verde {
+        width: 6px;
+        height: 100%!important;
+    }
+
+    .ul-precios-v{
+        left: -40px;
+    }
 
 }
 
 /*display sm*/
 @media only screen and (max-width: 576px) {
+    .ul-precios{
+        left: -30px;
+        position: relative;
+    }
+    .ul-precios-l{
 
+    }
 }
 
 /*display xs*/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 400px) {
 
 }

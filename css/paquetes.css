@@ -14,13 +14,20 @@
 .tittle-paquetes{
     font-size: 30px;
     color: #462435;
-
 }
 
 .bg-paquetes-li{
     background-image: url('../img/elements/pricing-img.png');
     background-repeat: no-repeat;
-    width: auto;
+    width: 110%;
+    height: 100px;
+    position: relative;
+}
+
+.bg-paquetes-li-ul{
+    background-image: url('../img/elements/pricing-img.png');
+    background-repeat: no-repeat;
+    width: 110%;
     height: 100px;
     position: relative;
 }
@@ -28,7 +35,15 @@
 .bg-paquetes-li-2{
     background-image: url('../img/elements/pricing-img-2.png');
     background-repeat: no-repeat;
-    width: auto;
+    width: 110%;
+    height: 100px;
+    position: relative;
+}
+
+.bg-paquetes-li-2-ul{
+    background-image: url('../img/elements/pricing-img-2.png');
+    background-repeat: no-repeat;
+    width: 110%;
     height: 100px;
     position: relative;
 }
@@ -36,7 +51,7 @@
 .bg-paquetes-li-3{
     background-image: url('../img/elements/pricing-img-3.png');
     background-repeat: no-repeat;
-    width: auto;
+    width: 110%;
     height: 140px!important;
     position: relative;
 }
@@ -49,4 +64,209 @@
     font-size: 22px;
     color: #462435;
     width: 280px;
+}
+
+.contendor-p-2{
+     position: absolute;
+    text-align: center;
+    top: 0px;
+    left: -15px;
+    font-size: 22px;
+    color: #462435;
+    width: 280px;
+}
+
+/*display xl*/
+@media only screen and (max-width: 1200px) {
+    .bg-paquetes-li{
+        width: 130%;
+        height: 100px;
+    }
+
+    .bg-paquetes-li-ul{
+        width: 130%;
+        height: 100px;
+    }
+
+    .bg-paquetes-li-2{
+        width: 130%;
+        height: 100px;
+    }
+
+    .bg-paquetes-li-2-ul{
+        width: 130%;
+        height: 100px;
+
+    }
+
+    .bg-paquetes-li-3{
+        width: 130%;
+        height: 140px!important;
+    }
+
+    .tittle-paquetes{
+        font-size: 26px;
+    }
+}
+
+/*display lg*/
+@media only screen and (max-width: 992px) {
+    .bg-paquetes-li-ul{
+        width: 250px;
+        height: 100px;
+        left: 150px;
+        position: relative;
+    }
+
+    .bg-paquetes-li-2-ul{
+        width: 250px;
+        height: 100px;
+        left: 150px;
+        position: relative;
+    }
+
+    .contendor-p-2 {
+        text-align: center;
+        top: 0px;
+        left: -15px;
+        width: 280px;
+    }
+
+}
+
+/*display md:*/
+@media only screen and (max-width: 768px) {
+
+    .bg-paquetes-li{
+        width: 250px;
+        height: 100px;
+        left: 50px;
+    }
+
+    .bg-paquetes-li-2{
+        width: 250px;
+        height: 100px;
+        left: 50px;
+    }
+
+    .bg-paquetes-li-3{
+        width: 250px;
+        height: 100px;
+        left: 50px;
+    }
+
+    .bg-paquetes-li-ul{
+        width: 250px;
+        height: 100px;
+        left: 50px;
+    }
+
+    .bg-paquetes-li-2-ul{
+        width: 250px;
+        height: 100px;
+        left: 50px;
+    }
+
+}
+
+/*display sm*/
+@media only screen and (max-width: 576px) {
+    .bg-paquetes-li{
+        width: 250px;
+        height: 100px;
+        left: 39px;
+    }
+
+    .bg-paquetes-li-2{
+        width: 250px;
+        height: 100px;
+        left: 39px;
+    }
+
+    .bg-paquetes-li-3{
+        width: 250px;
+        height: 100px;
+        left: 39px;
+    }
+
+    .bg-paquetes-li-ul{
+        width: 250px;
+        height: 100px;
+        left: 39px;
+    }
+
+    .bg-paquetes-li-2-ul{
+        width: 250px;
+        height: 100px;
+        left: 39px;
+    }
+}
+/*display intermnedio*/
+@media only screen and (max-width: 576px) {
+    .bg-paquetes-li{
+        width: 250px;
+        height: 100px;
+        left: 20px;
+    }
+
+    .bg-paquetes-li-2{
+        width: 250px;
+        height: 100px;
+        left: 20px;
+    }
+
+    .bg-paquetes-li-3{
+        width: 250px;
+        height: 100px;
+        left: 20px;
+    }
+
+    .bg-paquetes-li-ul{
+        width: 250px;
+        height: 100px;
+        left: 20px;
+    }
+
+    .bg-paquetes-li-2-ul{
+        width: 250px;
+        height: 100px;
+        left: 20px;
+    }
+}
+
+/*display xs*/
+@media only screen and (max-width: 400px) {
+    .tittle-paquetes {
+        font-size: 20px;
+    }
+    .bg-paquetes-li{
+        width: 250px;
+        height: 100px;
+        left: -35px;
+    }
+
+    .bg-paquetes-li-2{
+        width: 250px;
+        height: 100px;
+        left: -35px;
+    }
+
+    .bg-paquetes-li-3{
+        width: 250px;
+        height: 100px;
+        left: -35px;
+    }
+
+    .bg-paquetes-li-ul{
+        width: 250px;
+        height: 100px;
+        left: -35px;
+    }
+
+    .bg-paquetes-li-2-ul{
+        width: 250px;
+        height: 100px;
+        left: -35px;
+    }
+
 }
