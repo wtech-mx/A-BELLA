@@ -78,8 +78,15 @@
 
 /*display lg*/
 @media only screen and (max-width: 992px) {
+
     .sucursales{
+        background-image: url('../img/elements/content-img-start-lg.png');
         height:auto!important;
+    }
+
+    .sucursales-mazatlan {
+        background-image: url('../img/elements/content-img-sucursalt-lg.png');
+        height: 560px!important;
     }
 
     .img-sucursal{
@@ -104,6 +111,16 @@
 /*display md:*/
 @media only screen and (max-width: 768px) {
 
+    .sucursales{
+        background-image: url('../img/elements/content-img-start-md.png');
+        height:auto!important;
+    }
+
+    .sucursales-mazatlan {
+        background-image: url('../img/elements/content-img-sucursalt-md.png');
+        height: 420px!important;
+    }
+
     .img-sucursal2 {
         position: absolute;
         top: 15px;
@@ -115,6 +132,11 @@
 
 /*display sm*/
 @media only screen and (max-width: 576px) {
+
+    .sucursales-mazatlan {
+        background-image: url('../img/elements/content-img-sucursalt-sm.png');
+        height: 420px!important;
+    }
 
 }
 

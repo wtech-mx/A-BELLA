@@ -43,17 +43,26 @@
 
 /*display lg*/
 @media only screen and (max-width: 992px) {
-
+    .precios{
+        background-image: url('../img/elements/pricing-bg-lg.png');
+    }
 }
 
 /*display md:*/
 @media only screen and (max-width: 768px) {
-
+    .precios{
+        background-image: url('../img/elements/pricing-bg-md.png');
+    }
 
 }
 
 /*display sm*/
 @media only screen and (max-width: 576px) {
+
+    .precios{
+        background-image: url('../img/elements/pricing-bg-sm.png');
+    }
+
     .container-precios{
         padding: 0rem!important;
     }
@@ -66,7 +75,13 @@
 
 /*display xs*/
 @media only screen and (max-width: 400px) {
+
+    .precios{
+        background-image: url('../img/elements/pricing-bg-xs.png');
+    }
+
     .content-precing2{
          margin-left: 50px;
     }
+
 }
