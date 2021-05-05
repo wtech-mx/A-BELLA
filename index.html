@@ -28,12 +28,13 @@
 
     <script>
       smoothScroll.init({
-      selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
-      selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-      speed: 2000, // Integer. How fast to complete the scroll in milliseconds
-      easing: 'easeInOutCubic', // Easing pattern to use
-      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
-      callback: function ( anchor, toggle ) {} // Function to run after scrolling
+      selector: '[data-scroll]', // Selector de enlaces (debe ser una clase, ID, atributo de datos o etiqueta de elemento)
+      selectorHeader: null, // Selector de encabezados fijos (debe ser un selector de CSS válido) [opcional]
+      speed: 3000, // Entero. Qué tan rápido para completar el desplazamiento en milisegundos
+      speedAsDuration: true,
+      easing: 'easeInOutQuad', // Patrón de facilitación para usar
+      offset: 0, // Entero. Cuánto compensar la ubicación del ancla de desplazamiento en píxeles
+      callback: function ( anchor, toggle ) {} // Función para ejecutar después de desplazarse
       });
     </script>
 
