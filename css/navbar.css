@@ -15,6 +15,10 @@
     color: #e198ad;
 }
 
+.navbar-nav{
+   margin-left: 3rem!important;
+}
+
 /*display xl*/
 @media only screen and (max-width: 1200px) {
 
@@ -48,7 +52,10 @@
 
     .navbar-light .navbar-nav .nav-link {
         font-size: 35px;
+         /*margin-right: 3rem;*/
     }
+
+
     .navbar-light .navbar-nav .nav-link:hover{
         color: #e198ad;
     }
@@ -65,10 +72,19 @@
     .navbar-first{
         margin-top: 30%;
     }
+    
+    .navbar-nav{
+       margin-left: 0rem!important;
+    }
+
 }
 
 /*display sm*/
 @media only screen and (max-width: 576px) {
+
+}
+
+@media only screen and (max-width: 768px){
 
 }
 
