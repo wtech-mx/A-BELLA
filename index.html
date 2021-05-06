@@ -38,8 +38,6 @@
       });
     </script>
 
-
-
   </head>
 
 <body id="home">
@@ -50,12 +48,14 @@
         <div class="container content-section-white">
             <nav class="navbar  fixed-top navbar-expand-md navbar-light" style="background-color: #fff!important;">
 
-                <a class="navbar-brand" data-scroll href="#home" role="button" aria-pressed="true">
+                <a class="navbar-brand" data-scroll href="#home" role="button" >
                     <img class="" src="./img/logo-pro.png" width="100%">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <button class="navbar-toggler cargar"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
+
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -68,7 +68,7 @@
                     </li>
 
                     <li class="nav-item navbar-first">
-                      <a class="nav-link text-navbar" data-scroll href="#home" role="button" aria-pressed="true">Home</a>
+                        <a class="nav-link text-navbar" id="nav-collapse" data-scroll href="#home" role="button" >Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -80,9 +80,9 @@
                       </a>
 
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item text-navbar" data-scroll href="#Precios" role="button" aria-pressed="true">Precios</a>
-                          <a class="dropdown-item text-navbar" data-scroll href="#Paquetes" role="button" aria-pressed="true">Paquetes</a>
-                          <a class="dropdown-item text-navbar" data-scroll href="#Promociones" role="button" aria-pressed="true">Promociones</a>
+                          <a class="dropdown-item text-navbar" id="nav-collapse" data-scroll href="#Precios" role="button" >Precios</a>
+                          <a class="dropdown-item text-navbar" id="nav-collapse" data-scroll href="#Paquetes" role="button" >Paquetes</a>
+                          <a class="dropdown-item text-navbar" id="nav-collapse" data-scroll href="#Promociones" role="button" >Promociones</a>
                       </div>
 
                     </li>
@@ -96,18 +96,18 @@
                       </a>
 
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item text-navbar" data-scroll href="#Culiacan" role="button" aria-pressed="true">Culiacán</a>
-                          <a class="dropdown-item text-navbar" data-scroll href="#Mazatlan" role="button" aria-pressed="true">Mazatlán</a>
+                          <a class="dropdown-item text-navbar" data-scroll href="#Culiacan" role="button" >Culiacán</a>
+                          <a class="dropdown-item text-navbar" data-scroll href="#Mazatlan" role="button" >Mazatlán</a>
                       </div>
 
                     </li>
 
                     <li class="nav-item  ">
-                      <a class="nav-link text-navbar" data-scroll href="#Productos" role="button" aria-pressed="true">Productos</a>
+                      <a class="nav-link text-navbar" data-scroll href="#Productos" role="button" >Productos</a>
                     </li>
 
                     <li class="nav-item  ">
-                      <a class="nav-link text-navbar" data-scroll href="#Contacto" role="button" aria-pressed="true">Contacto</a>
+                      <a class="nav-link text-navbar"  data-scroll href="#Contacto" role="button" >Contacto</a>
                     </li>
 
 
@@ -132,8 +132,6 @@
                   </ul>
 
                   <ul class="navbar-nav mr-5">
-
-
                        <li class="nav-item  ">
                           <a class="nav-link text-navbar " href="#">
                               <div class="conten-navbar-rs"></div>
@@ -168,6 +166,7 @@
             </div>
         <!-- Navbar -->
 
+<input type="button" value="intervalo" onclick="intervalo()" />
         <!-- slide -->
         <div id="carouselExampleCaptions" class="carousel slide slide-top slide-custom" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -914,12 +913,32 @@
 </div>
 
 
-
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" ></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="./js/preloader.js"></script>
+<script>
+
+
+
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarSupportedContent')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
+
+
+
+
+</script>
+
+<script src="./js/preloader.js"></script>
+
+
+
 
 </body>
 
