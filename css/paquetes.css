@@ -83,9 +83,32 @@
     margin-left: 1.25rem;
     margin-right: 1.25rem;
 }
+/*display xl*/
+@media only screen and (max-width: 1500px) {
+    .paquetes{
+        background-image: url('../img/elements/precios-xl.png');
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .paquetes{
+        background-image: url('../img/elements/precios-xlm.png');
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .paquetes{
+        background-image: url('../img/elements/precios-1300.png');
+    }
+}
 
 /*display xl*/
 @media only screen and (max-width: 1200px) {
+
+    .paquetes{
+        background-image: url('../img/elements/precios-1200.png');
+    }
     .bg-paquetes-li{
         width: 130%;
         height: 100px;
@@ -114,6 +137,12 @@
 
     .tittle-paquetes{
         font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .paquetes{
+        background-image: url('../img/elements/precios-100.png');
     }
 }
 
@@ -266,6 +295,7 @@
     .tittle-paquetes {
         font-size: 20px;
     }
+
     .bg-paquetes-li{
         width: 250px;
         height: 100px;
