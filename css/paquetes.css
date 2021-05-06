@@ -258,6 +258,11 @@
 
 /*display xs*/
 @media only screen and (max-width: 400px) {
+
+    .paquetes{
+        background-image: url('../img/elements/pricing-bg-ss.png');
+    }
+
     .tittle-paquetes {
         font-size: 20px;
     }

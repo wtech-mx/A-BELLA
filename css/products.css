@@ -25,6 +25,10 @@
     transition: all .2s ease-in-out;
 }
 
+.product-border{
+     border: 1px solid #462435;
+}
+
 .col-products:hover {
     transform: scale(1.3);
 
@@ -82,10 +86,12 @@
 
 /*display sm*/
 @media only screen and (max-width: 576px) {
-
+    .product-border{
+         border: 0px solid #462435;
+    }
 }
 
 /*display xs*/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 400px) {
 
 }
