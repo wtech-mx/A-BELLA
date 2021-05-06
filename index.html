@@ -30,7 +30,7 @@
       smoothScroll.init({
       selector: '[data-scroll]', // Selector de enlaces (debe ser una clase, ID, atributo de datos o etiqueta de elemento)
       selectorHeader: null, // Selector de encabezados fijos (debe ser un selector de CSS válido) [opcional]
-      speed: 3000, // Entero. Qué tan rápido para completar el desplazamiento en milisegundos
+      speed: 2000, // Entero. Qué tan rápido para completar el desplazamiento en milisegundos
       speedAsDuration: true,
       easing: 'easeInOutQuad', // Patrón de facilitación para usar
       offset: 0, // Entero. Cuánto compensar la ubicación del ancla de desplazamiento en píxeles
@@ -52,20 +52,13 @@
                     <img class="" src="./img/logo-pro.png" width="100%">
                 </a>
 
-                <button class="navbar-toggler cargar"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                   <ul class="navbar-nav mr-auto">
-
-                    <li class="nav-item ">
-                      <a class="nav-link text-navbar" href="#home">
-                          <div class="conten-navbar"></div>
-                      </a>
-                    </li>
 
                     <li class="nav-item navbar-first">
                         <a class="nav-link text-navbar" id="nav-collapse" data-scroll href="#home" role="button" >Home</a>
@@ -80,9 +73,9 @@
                       </a>
 
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item text-navbar" id="nav-collapse" data-scroll href="#Precios" role="button" >Precios</a>
-                          <a class="dropdown-item text-navbar" id="nav-collapse" data-scroll href="#Paquetes" role="button" >Paquetes</a>
-                          <a class="dropdown-item text-navbar" id="nav-collapse" data-scroll href="#Promociones" role="button" >Promociones</a>
+                          <a class="dropdown-item text-navbar"  data-scroll href="#Precios" role="button" >Precios</a>
+                          <a class="dropdown-item text-navbar"  data-scroll href="#Paquetes" role="button" >Paquetes</a>
+                          <a class="dropdown-item text-navbar"  data-scroll href="#Promociones" role="button" >Promociones</a>
                       </div>
 
                     </li>
@@ -163,10 +156,9 @@
 
                 </div>
               </nav>
-            </div>
+        </div>
         <!-- Navbar -->
 
-<input type="button" value="intervalo" onclick="intervalo()" />
         <!-- slide -->
         <div id="carouselExampleCaptions" class="carousel slide slide-top slide-custom" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -840,7 +832,7 @@
                         <div class="product-border">
                        <img src="./img/products/product9.png" alt="" class="text-center" width="70%">
                             <p class="text-products">
-                               Dabalash <br>
+                               Dabalash <br> <br>
                             </p>
                         <h3 class="tittle2-products">$1,850</h3>
                         </div>
@@ -920,18 +912,12 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
-
-
-
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('navbarSupportedContent')
 const bsCollapse = new bootstrap.Collapse(menuToggle)
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() })
 })
-
-
-
 
 </script>
 
