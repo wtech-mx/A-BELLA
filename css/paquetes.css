@@ -254,6 +254,11 @@
 }
 /*display intermnedio*/
 @media only screen and (max-width: 576px) {
+
+    .paquetes{
+        background-image: url('../img/elements/pricing-bg-576.png');
+    }
+
     .bg-paquetes-li{
         width: 250px;
         height: 100px;
@@ -284,6 +289,34 @@
         left: 20px;
     }
 }
+
+@media only screen and (max-width: 415px) {
+    .bg-paquetes-li{
+        width: 250px;
+        height: 100px;
+        left: -20px;
+    }
+
+    .bg-paquetes-li-2{
+        width: 250px;
+        height: 100px;
+        left: -20px;
+    }
+
+    .bg-paquetes-li-3{
+        width: 250px;
+        height: 100px;
+        left: -20px;
+    }
+
+    .bg-paquetes-li-ul{
+         left: -20px;
+    }
+    .bg-paquetes-li-2-ul{
+         left: -20px;
+    }
+}
+
 
 /*display xs*/
 @media only screen and (max-width: 400px) {

@@ -139,6 +139,37 @@
     }
 
 }
+@media only screen and (max-width: 415px) {
+
+    .sucursales {
+        background-image: url('../img/elements/content-img-start-415.png');
+    }
+    .tittle-sucursal {
+        font-size: 19px;
+    }
+
+    .tittle2-sucursal {
+        font-size: 17px;
+    }
+
+    .img-sucursal {
+        top: 43px;
+        left: -25px;
+        width: 25%;
+    }
+
+    .img-sucursal2 {
+        position: absolute;
+        top: 15px;
+        left: -25px;
+        width: 25%;
+    }
+
+    .img-round-sucursal2{
+        width: 55%;
+    }
+
+}
 
 /*display xs*/
 @media only screen and (max-width: 400px) {

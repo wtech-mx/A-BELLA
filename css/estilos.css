@@ -4,6 +4,11 @@
     font-weight: bold;
     font-size: 55px;
 }
+/*.container-fluid{*/
+/*    padding-right: 15px;*/
+/*    padding-left: 15px;*/
+/*}*/
+
 
 .carousel-caption{
     top: 50%!important;
