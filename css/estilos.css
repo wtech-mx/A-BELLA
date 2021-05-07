@@ -1,8 +1,19 @@
+@font-face{
+    font-family: LeagueSpartan;
+    src: url('../fonts/LeagueSpartan-Bold.otf');
+}
+
+@font-face{
+    font-family: Glacial;
+    src: url('../fonts/GlacialIndifference-Regular.otf');
+}
+
 
 .tittle-general{
     color: #e198ad;
     font-weight: bold;
     font-size: 55px;
+    font-family: LeagueSpartan;
 }
 /*.container-fluid{*/
 /*    padding-right: 15px;*/
@@ -111,6 +122,14 @@
     .carousel-indicators li{
         width: 13px!important;
         height: 13px!important;
+    }
+
+    .precios-espacio{
+        margin-top: 3rem!important;
+    }
+
+    .paquetes-espacio{
+        margin-top: 3rem!important;
     }
 
 }

@@ -144,6 +144,7 @@
 
     .text-products{
         font-size:16px;
+        font-family: Glacial;
     }
 
 }
@@ -158,6 +159,11 @@
         border: 0px solid #462435;
         width: 230px!important;
         height: 280px!important;
+    }
+
+    .tittle-products-rs{
+        top: 60px;
+        position:relative;
     }
 
 }
@@ -177,7 +183,7 @@
     .product-border{
         border: 0px solid #462435;
         width: 150px!important;
-        height: 250px!important;
+        height: 220px!important;
     }
 
     .tittle2-products2{

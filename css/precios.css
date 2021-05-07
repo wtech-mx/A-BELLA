@@ -6,6 +6,10 @@
     background-size: 100% 100%;
 }
 
+.text-precios{
+    font-family: Glacial;
+}
+
 .container-precios{
     padding: 3rem!important;
 }
@@ -60,7 +64,8 @@
 @media only screen and (max-width: 576px) {
 
     .precios{
-        background-image: url('../img/elements/pricing-bg-sm.png');
+        /* background-image: url('../img/elements/pricing-bg-sm.png'); */
+        background-image: url('../img/elements/pricing-bg-xs.png');
     }
 
     .container-precios{
