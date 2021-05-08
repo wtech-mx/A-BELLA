@@ -1,7 +1,6 @@
 .sucursales {
     background-image: url('../img/elements/content-img-start.png');
     background-repeat: no-repeat;
-
 }
 
 .sucursales-mazatlan{
@@ -121,8 +120,6 @@
 
     .sucursales-mazatlan {
         background-image: url('../img/elements/content-img-sucursalt-md.png');
-   
-        
 
     }
 
@@ -206,6 +203,14 @@
 
 /*display xs*/
 @media only screen and (max-width: 400px) {
+    .sucursales {
+        background-image: url('../img/elements/sucur-mazatlan-400-sx.png'); 
+    }
+
+    .sucursales-mazatlan {
+        background-image: url('../img/elements/sucur-culiacan-400-sx.png');
+    }
+
     .tittle-sucursal {
         font-size: 20px;
     }
