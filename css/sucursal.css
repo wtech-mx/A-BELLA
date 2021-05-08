@@ -171,8 +171,9 @@
 @media only screen and (max-width: 415px) {
 
     .sucursales {
-        background-image: url('../img/elements/content-img-start-415.png');
+        background-image: url('../img/elements/sucursales-400.png');
     }
+    
     .tittle-sucursal {
         font-size: 19px;
     }

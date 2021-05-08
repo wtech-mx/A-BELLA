@@ -46,10 +46,10 @@
 
         <!-- Navbar -->
         <div class="container content-section-white">
-            <nav class="navbar  fixed-top navbar-expand-md navbar-light" style="background-color: #fff!important;">
+            <nav class="navbar fixed-top navbar-expand-md navbar-light navbar-custom" style="">
 
                 <a class="navbar-brand" data-scroll href="#home" role="button" >
-                    <img class="" src="./img/logo-pro.png" width="100%">
+                    <img class="logo-img" src="./img/logo-pro.png" >
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,13 @@
 
                   <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item navbar-first">
+                    <li class="nav-item ml-3 mr-3">
+                      <div class="d-none d-sm-none d-md-block">
+                        <div class="conten-navbar"></div>
+                      </div>
+                    </li>
+
+                    <li class="nav-item navbars-collapse navbar-first">
                         <a class="nav-link text-navbar" id="nav-collapse" data-scroll href="#home" role="button" >Home</a>
                     </li>
 
@@ -72,7 +78,7 @@
                         </svg>
                       </a>
 
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <div class="dropdown-menu navbars-collapse" aria-labelledby="navbarDropdown">
                           <a class="dropdown-item text-navbar"  data-scroll href="#Precios" role="button" >Precios</a>
                           <a class="dropdown-item text-navbar"  data-scroll href="#Paquetes" role="button" >Paquetes</a>
                           <a class="dropdown-item text-navbar"  data-scroll href="#Promociones" role="button" >Promociones</a>
@@ -88,18 +94,18 @@
                         </svg>
                       </a>
 
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <div class="dropdown-menu navbars-collapse" aria-labelledby="navbarDropdown">
                           <a class="dropdown-item text-navbar" data-scroll href="#Culiacan" role="button" >Culiacán</a>
                           <a class="dropdown-item text-navbar" data-scroll href="#Mazatlan" role="button" >Mazatlán</a>
                       </div>
 
                     </li>
 
-                    <li class="nav-item  ">
+                    <li class="nav-item  navbars-collapse">
                       <a class="nav-link text-navbar" data-scroll href="#Productos" role="button" >Productos</a>
                     </li>
 
-                    <li class="nav-item  ">
+                    <li class="nav-item  navbars-collapse">
                       <a class="nav-link text-navbar"  data-scroll href="#Contacto" role="button" >Contacto</a>
                     </li>
 
@@ -131,7 +137,14 @@
                           </a>
                        </li>
 
-                       <li class="nav-item  ">
+
+                      <li class="nav-item mr-3">
+                        <div class="d-none d-sm-none d-md-block">
+                          <div class="conten-navbar2"></div>
+                        </div>
+                      </li>
+                       
+                       <li class="nav-item">
                           <div class="d-none d-sm-none d-md-block">
                           <a class="nav-link text-navbar" href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -165,6 +178,7 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -173,7 +187,8 @@
                 <h5 class="tittle-slide">DEPILACION 100% NATURAL</h5>
                 <p class="text-slide"></p>
               </div>
-            </div>-
+            </div>
+
             <div class="carousel-item">
               <img src="./img/slide/2.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption ">
@@ -181,6 +196,7 @@
                 <p class="text-slide"></p>
               </div>
             </div>
+
             <div class="carousel-item">
               <img src="./img/slide/3.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption ">
@@ -188,6 +204,15 @@
                 <p class="text-slide"></p>
               </div>
             </div>
+
+            <div class="carousel-item">
+              <img src="./img/slide/4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption ">
+                <h5 class="tittle-slide">DEPILACION 100% NATURAL</h5>
+                <p class="text-slide"></p>
+              </div>
+            </div>
+
           </div>
           <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -660,7 +685,7 @@
         <!-- Sucursales Culiacan -->
 
         <!-- Sucursales Mazatlan -->
-        <section class="sucursales" id="Culiacan">
+        <section class="sucursales" id="Mazatlan">
           <div class="container">
 
             <div class="row">
@@ -938,17 +963,20 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-sm-5 col-md-4 col-lg-3 mt-3 col-contact">
+                        <div class="d-flex align-items-center">
+                          <div class="col-12 col-sm-5 col-md-4 col-lg-3 mt-3 ml-5 col-contact">
+                          
                             <h3 class="">Email</h3>
                             <p style="font-family: Glacial;">arabegarcia@gmail.com</p>
 
                             <h3 class="">Teléfono</h3>
                             <p style="font-family: Glacial;">6671028921</p>
+                          </div>
                         </div>
 
                     </div>
                 </div>
-            </section>
+         </section>
        <!-- Contacto -->
 
 		</div>
@@ -969,6 +997,14 @@
 // navLinks.forEach((l) => {
 //     l.addEventListener('click', () => { bsCollapse.toggle() })
 // })
+$('.navbars-collapse a').on('click', function(){
+  $('.navbar-toggler').click(); 
+});
+
+//$('.navbar-nav>li>a').on('click', function(){
+// $('.navbar-collapse').collapse('hide');
+//});
+
 </script>
 
 <script src="./js/preloader.js"></script>

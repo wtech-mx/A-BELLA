@@ -74,7 +74,9 @@
 
 /*display lg*/
 @media only screen and (max-width: 992px) {
-
+    .slide-custom{
+        margin-top: 6.2rem!important;
+    }
 }
 
 /*display md:*/
@@ -100,6 +102,10 @@
         height: 16px!important;
     }
 
+    .slide-custom{
+        margin-top: 6.5rem!important;
+    }
+
 }
 
 /*display sm*/
@@ -107,8 +113,9 @@
     .tittle-general {
         font-size: 35px;
     }
+
     .slide-custom{
-        margin-top: 4rem!important;
+        margin-top: 5.4rem!important;
     }
 
     .carousel-caption{
@@ -141,7 +148,7 @@
     }
 
     .slide-custom{
-        margin-top: 4rem!important;
+        margin-top: 5.4rem!important;
     }
 
     .carousel-caption{
