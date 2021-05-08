@@ -1,17 +1,12 @@
 .sucursales {
     background-image: url('../img/elements/content-img-start.png');
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    background-size: 100% 100%;
+
 }
 
 .sucursales-mazatlan{
     background-image: url('../img/elements/content-img-sucursalt.png');
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    background-size: 100% 100%;
+
 }
 
 .tittle-sucursal{
@@ -86,12 +81,11 @@
 
     .sucursales{
         background-image: url('../img/elements/content-img-start-lg.png');
-        height:auto!important;
+        
     }
 
     .sucursales-mazatlan {
         background-image: url('../img/elements/content-img-sucursalt-lg.png');
-        height: 560px!important;
     }
 
     .img-sucursal{
@@ -122,12 +116,14 @@
 
     .sucursales{
         background-image: url('../img/elements/content-img-start-md.png');
-        height:auto!important;
+   
     }
 
     .sucursales-mazatlan {
         background-image: url('../img/elements/content-img-sucursalt-md.png');
-        height: 420px!important;
+   
+        
+
     }
 
     .img-sucursal2 {
@@ -143,7 +139,6 @@
 
     .sucursales-mazatlan {
         background-image: url('../img/elements/content-img-sucursalt-sm.png');
-        height: 420px!important;
     }
 
     .img-round-sucursal {
@@ -173,7 +168,12 @@
     .sucursales {
         background-image: url('../img/elements/sucur-mazatlan-400.png');
     }
-    
+
+    .sucursales-mazatlan {
+        background-image: url('../img/elements/sucur-culiacan-400.png');
+    }
+
+        
     .tittle-sucursal {
         font-size: 19px;
     }
