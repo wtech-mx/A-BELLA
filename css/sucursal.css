@@ -1,12 +1,3 @@
-.sucursales {
-    background-image: url('../img/elements/content-img-start.png');
-    background-repeat: no-repeat;
-}
-
-.sucursales-mazatlan{
-    background-image: url('../img/elements/content-img-sucursalt.png');
-
-}
 
 .tittle-sucursal{
     color: #44294f;
@@ -78,16 +69,7 @@
 /*display lg*/
 @media only screen and (max-width: 992px) {
 
-    .sucursales{
-        background-image: url('../img/elements/content-img-start-lg.png');
-        
-    }
-
-    .sucursales-mazatlan {
-        background-image: url('../img/elements/content-img-sucursalt-lg.png');
-    }
-
-    .img-sucursal{
+      .img-sucursal{
        top: 10px;
        left: -20px;
        width: 25%;
@@ -113,16 +95,6 @@
 /*display md:*/
 @media only screen and (max-width: 768px) {
 
-    .sucursales{
-        background-image: url('../img/elements/content-img-start-md.png');
-   
-    }
-
-    .sucursales-mazatlan {
-        background-image: url('../img/elements/content-img-sucursalt-md.png');
-
-    }
-
     .img-sucursal2 {
         top: 15px;
         left: -23px;
@@ -133,10 +105,6 @@
 
 /*display sm*/
 @media only screen and (max-width: 576px) {
-
-    .sucursales-mazatlan {
-        background-image: url('../img/elements/content-img-sucursalt-sm.png');
-    }
 
     .img-round-sucursal {
         width: 40%;
@@ -162,15 +130,7 @@
 }
 @media only screen and (max-width: 415px) {
 
-    .sucursales {
-        background-image: url('../img/elements/sucur-mazatlan-400.png');
-    }
-
-    .sucursales-mazatlan {
-        background-image: url('../img/elements/sucur-culiacan-400.png');
-    }
-
-        
+         
     .tittle-sucursal {
         font-size: 19px;
     }
@@ -203,13 +163,6 @@
 
 /*display xs*/
 @media only screen and (max-width: 400px) {
-    .sucursales {
-        background-image: url('../img/elements/sucur-mazatlan-400-sx.png'); 
-    }
-
-    .sucursales-mazatlan {
-        background-image: url('../img/elements/sucur-culiacan-400-sx.png');
-    }
 
     .tittle-sucursal {
         font-size: 20px;

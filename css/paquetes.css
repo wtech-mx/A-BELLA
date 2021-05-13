@@ -1,9 +1,13 @@
-.paquetes{
-    background-image: url('../img/elements/precios-bg.png');
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    background-size: 100% 100%;
+.flores-izquierda{
+    left: 0px;
+    top: 0px;
+    width:20%;
+}
+
+.chica-naranja{
+    right: 0px;
+    bottom: 0px;
+    width:20%; 
 }
 
 .card-paquete{
@@ -87,30 +91,22 @@
 }
 /*display xl*/
 @media only screen and (max-width: 1500px) {
-    .paquetes{
-        background-image: url('../img/elements/precios-xl.png');
-    }
+
 }
 
 
 @media only screen and (max-width: 1400px) {
-    .paquetes{
-        background-image: url('../img/elements/precios-xlm.png');
-    }
+
 }
 
 @media only screen and (max-width: 1300px) {
-    .paquetes{
-        background-image: url('../img/elements/precios-1300.png');
-    }
+
 }
 
 /*display xl*/
 @media only screen and (max-width: 1200px) {
 
-    .paquetes{
-        background-image: url('../img/elements/precios-1200.png');
-    }
+
     .bg-paquetes-li{
         width: 130%;
         height: 100px;
@@ -143,16 +139,22 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    .paquetes{
-        background-image: url('../img/elements/precios-100.png');
-    }
+
 }
 
 /*display lg*/
 @media only screen and (max-width: 992px) {
 
-    .paquetes{
-        background-image: url('../img/elements/precios-bg-md.png');
+    .flores-izquierda{
+        left: 0px;
+        top: 0px;
+        width:25%;
+    }
+    
+    .chica-naranja{
+        right: 0px;
+        bottom: 0px;
+        width:25%; 
     }
 
     .bg-paquetes-li-ul{
@@ -181,8 +183,16 @@
 /*display md:*/
 @media only screen and (max-width: 768px) {
 
-    .paquetes{
-        background-image: url('../img/elements/precios-bg-sm.png');
+    .flores-izquierda{
+        left: 0px;
+        top: 0px;
+        width:30%;
+    }
+    
+    .chica-naranja{
+        right: 0px;
+        bottom: 0px;
+        width:30%; 
     }
 
     .bg-paquetes-li{
@@ -220,9 +230,6 @@
 /*display sm*/
 @media only screen and (max-width: 576px) {
 
-    .paquetes{
-        background-image: url('../img/elements/precios-bg-xs.png');
-    }
 
     .bg-paquetes-li{
         width: 250px;
@@ -257,9 +264,6 @@
 /*display intermnedio*/
 @media only screen and (max-width: 576px) {
 
-    .paquetes{
-        background-image: url('../img/elements/pricing-bg-576.png');
-    }
 
     .bg-paquetes-li{
         width: 250px;
@@ -323,10 +327,6 @@
 /*display xs*/
 @media only screen and (max-width: 400px) {
 
-    .paquetes{
-        background-image: url('../img/elements/pricing-bg-ss.png');
-    }
-
     .tittle-paquetes {
         font-size: 20px;
     }
@@ -359,6 +359,53 @@
         width: 250px;
         height: 100px;
         left: -35px;
+    }
+
+}
+
+/*display xxs*/
+@media only screen and (max-width: 350px) {
+
+    .tittle-paquetes {
+        font-size: 18px;
+    }
+
+    .tittle-paquetes-xs{
+        font-size: 15px;
+    }
+
+    .contendor-p{
+        font-size: 20px;
+    }
+
+    .bg-paquetes-li{
+        width: 250px;
+        height: 100px;
+        left: -63px;
+    }
+
+    .bg-paquetes-li-2{
+        width: 250px;
+        height: 100px;
+        left: -63px;
+    }
+
+    .bg-paquetes-li-3{
+        width: 250px;
+        height: 100px;
+        left: -63px;
+    }
+
+    .bg-paquetes-li-ul{
+        width: 250px;
+        height: 100px;
+        left: -63px;
+    }
+
+    .bg-paquetes-li-2-ul{
+        width: 250px;
+        height: 100px;
+        left: -63px;
     }
 
 }

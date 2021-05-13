@@ -1,9 +1,23 @@
-.precios{
-    background-image: url('../img/elements/pricing-bg.png');
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    background-size: 100% 100%;
+.paleta-izquierda{
+    left: 0px;
+    width:10%;
+}
+
+.estrellas-derechas{
+    right: 0px;
+    width:10%; 
+}
+
+.estrellas-izquierda{
+    left: 0px;
+    bottom: 0px;
+    width:10%; 
+}
+
+.paleta-derechas{
+    top: 50%;
+    right: 0px;
+    width:10%; 
 }
 
 .text-precios{
@@ -47,26 +61,61 @@
 
 /*display lg*/
 @media only screen and (max-width: 992px) {
-    .precios{
-        background-image: url('../img/elements/pricing-bg-lg.png');
+    .paleta-izquierda{
+        left: 0px;
+        width:17%;
+    }
+    
+    .estrellas-derechas{
+        right: 0px;
+        width:17%; 
+    }
+    
+    .estrellas-izquierda{
+        left: 0px;
+        bottom: 0px;
+        width:17%; 
+    }
+    
+    .paleta-derechas{
+        top: 50%;
+        right: 0px;
+        width:17%; 
     }
 }
 
 /*display md:*/
 @media only screen and (max-width: 768px) {
-    .precios{
-        background-image: url('../img/elements/pricing-bg-md.png');
-    }
+
 
 }
 
 /*display sm*/
 @media only screen and (max-width: 576px) {
 
-    .precios{
-        /* background-image: url('../img/elements/pricing-bg-sm.png'); */
-        background-image: url('../img/elements/pricing-bg-xs.png');
+
+    .paleta-izquierda{
+        left: 0px;
+        width:23%;
     }
+    
+    .estrellas-derechas{
+        right: 0px;
+        width:23%; 
+    }
+    
+    .estrellas-izquierda{
+        left: 0px;
+        bottom: 0px;
+        width:23%; 
+    }
+    
+    .paleta-derechas{
+        top: 50%;
+        right: 0px;
+        width:23%; 
+    }
+
 
     .container-precios{
         padding: 0rem!important;
@@ -81,9 +130,28 @@
 /*display xs*/
 @media only screen and (max-width: 400px) {
 
-    .precios{
-        background-image: url('../img/elements/pricing-bg-xs.png');
+    .paleta-izquierda{
+        left: 0px;
+        width:25%;
     }
+    
+    .estrellas-derechas{
+        right: 0px;
+        width:30%; 
+    }
+    
+    .estrellas-izquierda{
+        left: 0px;
+        bottom: 0px;
+        width:30%; 
+    }
+    
+    .paleta-derechas{
+        top: 50%;
+        right: 0px;
+        width:25%; 
+    }
+
 
     .content-precing2{
          margin-left: 50px;
